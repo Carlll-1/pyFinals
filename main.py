@@ -6,7 +6,7 @@ class HRApp:
     def __init__(self, root):
         self.root = root
         self.root.title("HR Recruitment Management System")
-        self.root.geometry("900x500")
+        self.root.geometry("1200x500")
 
         self.system = HRSystem()
 
